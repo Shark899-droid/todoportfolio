@@ -1,0 +1,22 @@
+.toDoComponentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.toDoComponentContainer p {
+  margin-left: 2rem;
+}
+
+.toDoComponentContainer input {
+  width: 20px;
+  height: 20px;
+}
+
+.delete {
+  position: absolute;
+  right: 30%;
+  margin-left: 5rem;
+  cursor: pointer;
+}
